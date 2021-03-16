@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">安卓TV开发之焦点管理</string>
+    <string name="section_1">安卓TV开发之焦点管理：基本使用</string>
+    <string name="section_2">安卓TV开发之焦点管理：深入定制</string>
+    <string name="description_1">只有 focused 状态的按钮</string>
+    <string name="description_2">还有 pressed 状态的按钮</string>
+    <string name="description_3">有焦点事件的按钮</string>
+    <string name="result_focused">←它获焦了</string>
+    <string name="result_unfocused">←它焦点没有了</string>
+    <string name="description_4">↑可获焦的 ImageView</string>
+    <string name="description_custom_move">自定义按→和↓键焦点移动</string>
+    <string name="enabled">已开启（点击按钮关闭）</string>
+    <string name="disabled">已关闭（点击按钮开启）</string>
+    <string name="goto_section2">GOTO 深入定制 →</string>
+</resources>

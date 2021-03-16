@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="100dp"
+        android:text="@string/section_1"
+        android:textColor="@color/text_white"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:layout_marginEnd="40dp"
+        android:layout_toStartOf="@id/title"
+        android:background="@drawable/view_bg"
+        android:focusable="true"
+        android:padding="2dp"
+        android:src="@drawable/image1"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/label_for_image1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_alignStart="@id/image1"
+        android:layout_below="@id/image1"
+        android:textColor="@color/text_white"
+        android:text="@string/description_4" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="280dp"
+        android:layout_height="56dp"
+        android:layout_below="@id/title"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_bg1"
+        android:text="@string/description_1"
+        android:textColor="@color/button_fg"
+        app:backgroundTint="@null" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="280dp"
+        android:layout_height="56dp"
+        android:layout_below="@id/button1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/button_bg2"
+        android:text="@string/description_2"
+        android:textColor="@color/button_fg"
+        app:backgroundTint="@null" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="280dp"
+        android:layout_height="56dp"
+        android:layout_below="@id/button2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/button_bg2"
+        android:text="@string/description_3"
+        android:textColor="@color/button_fg"
+        app:backgroundTint="@null" />
+
+    <TextView
+        android:id="@+id/label_for_button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/button3"
+        android:layout_marginStart="20dp"
+        android:layout_toEndOf="@id/button3"
+        android:textColor="@color/text_white"
+        tools:text="获焦变化说明" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="280dp"
+        android:layout_height="56dp"
+        android:layout_below="@id/button3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/button_bg2"
+        android:text="@string/description_custom_move"
+        android:textColor="@color/button_fg"
+        app:backgroundTint="@null" />
+
+    <TextView
+        android:id="@+id/label_for_button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/button4"
+        android:layout_marginStart="20dp"
+        android:layout_toEndOf="@id/button4"
+        android:textColor="@color/text_white"
+        tools:text="自定义获焦开启状态" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="280dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="40dp"
+        android:layout_alignTop="@id/button1"
+        android:layout_toEndOf="@id/button1"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_bg2"
+        android:text="@string/goto_section2"
+        android:textColor="@color/button_fg"
+        app:backgroundTint="@null" />
+</RelativeLayout>
