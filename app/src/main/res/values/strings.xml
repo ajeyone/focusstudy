@@ -12,4 +12,8 @@
     <string name="enabled">已开启（点击按钮关闭）</string>
     <string name="disabled">已关闭（点击按钮开启）</string>
     <string name="goto_section2">GOTO 深入定制 →</string>
+    <string name="script1_1">我们是</string>
+    <string name="script1_2">一行</string>
+    <string name="script1_3">淡定的</string>
+    <string name="script1_4">按钮</string>
 </resources>

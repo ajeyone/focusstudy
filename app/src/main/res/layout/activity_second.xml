@@ -16,4 +16,47 @@
         android:text="@string/section_2"
         android:textColor="@color/text_white"
         android:textSize="24sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="56dp"
+            android:background="@drawable/button_bg2"
+            android:text="@string/script1_1"
+            android:textColor="@color/button_fg"
+            app:backgroundTint="@null" />
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="20dp"
+            android:background="@drawable/button_bg2"
+            android:text="@string/script1_2"
+            android:textColor="@color/button_fg"
+            app:backgroundTint="@null" />
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="20dp"
+            android:background="@drawable/button_bg2"
+            android:text="@string/script1_3"
+            android:textColor="@color/button_fg"
+            app:backgroundTint="@null" />
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="20dp"
+            android:background="@drawable/button_bg2"
+            android:text="@string/script1_4"
+            android:textColor="@color/button_fg"
+            app:backgroundTint="@null" />
+    </LinearLayout>
 </RelativeLayout>
