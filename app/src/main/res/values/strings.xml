@@ -5,15 +5,18 @@
     <string name="description_1">只有 focused 状态的按钮</string>
     <string name="description_2">还有 pressed 状态的按钮</string>
     <string name="description_3">有焦点事件的按钮</string>
-    <string name="result_focused">←它获焦了</string>
-    <string name="result_unfocused">←它焦点没有了</string>
     <string name="description_4">↑可获焦的 ImageView</string>
     <string name="description_custom_move">自定义按→和↓键焦点移动</string>
+    <string name="result_focused">←它获焦了</string>
+    <string name="result_unfocused">←它焦点没有了</string>s
     <string name="enabled">已开启（点击按钮关闭）</string>
     <string name="disabled">已关闭（点击按钮开启）</string>
     <string name="goto_section2">GOTO 深入定制 →</string>
-    <string name="script1_1">我们是</string>
-    <string name="script1_2">一行</string>
-    <string name="script1_3">淡定的</string>
-    <string name="script1_4">按钮</string>
+    <string name="fruit1">火龙果</string>
+    <string name="fruit2">橙子</string>
+    <string name="fruit3">猕猴桃</string>
+    <string name="fruit4">香蕉</string>
+    <string name="fruit5">苹果</string>
+    <string name="fruit6">大鸭梨</string>
+    <string name="button_title_resume">恢复默认状态</string>
 </resources>

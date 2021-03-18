@@ -12,51 +12,159 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="24dp"
-        android:layout_marginBottom="100dp"
+        android:layout_marginBottom="80dp"
         android:text="@string/section_2"
         android:textColor="@color/text_white"
         android:textSize="24sp" />
 
     <LinearLayout
+        android:id="@+id/button_container"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/title"
         android:layout_centerHorizontal="true"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:padding="10dp">
 
         <Button
-            android:layout_width="150dp"
+            android:layout_width="120dp"
             android:layout_height="56dp"
-            android:background="@drawable/button_bg2"
-            android:text="@string/script1_1"
+            android:background="@drawable/button_bg3"
+            android:text="@string/fruit1"
             android:textColor="@color/button_fg"
             app:backgroundTint="@null" />
 
         <Button
-            android:layout_width="150dp"
+            android:layout_width="120dp"
             android:layout_height="56dp"
-            android:layout_marginStart="20dp"
-            android:background="@drawable/button_bg2"
-            android:text="@string/script1_2"
+            android:layout_marginStart="12dp"
+            android:background="@drawable/button_bg3"
+            android:text="@string/fruit2"
             android:textColor="@color/button_fg"
             app:backgroundTint="@null" />
 
         <Button
-            android:layout_width="150dp"
+            android:layout_width="120dp"
             android:layout_height="56dp"
-            android:layout_marginStart="20dp"
-            android:background="@drawable/button_bg2"
-            android:text="@string/script1_3"
+            android:layout_marginStart="12dp"
+            android:background="@drawable/button_bg3"
+            android:text="@string/fruit3"
             android:textColor="@color/button_fg"
             app:backgroundTint="@null" />
 
         <Button
-            android:layout_width="150dp"
+            android:layout_width="120dp"
             android:layout_height="56dp"
-            android:layout_marginStart="20dp"
-            android:background="@drawable/button_bg2"
-            android:text="@string/script1_4"
+            android:layout_marginStart="12dp"
+            android:background="@drawable/button_bg3"
+            android:text="@string/fruit4"
+            android:textColor="@color/button_fg"
+            app:backgroundTint="@null" />
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="12dp"
+            android:background="@drawable/button_bg3"
+            android:text="@string/fruit5"
+            android:textColor="@color/button_fg"
+            app:backgroundTint="@null" />
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="12dp"
+            android:background="@drawable/button_bg3"
+            android:text="@string/fruit6"
             android:textColor="@color/button_fg"
             app:backgroundTint="@null" />
     </LinearLayout>
+
+    <Button
+        android:id="@+id/button_resume"
+        android:layout_width="180dp"
+        android:layout_height="56dp"
+        android:layout_below="@id/button_container"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/button_bg2"
+        android:text="@string/button_title_resume"
+        android:textColor="@color/button_fg"
+        app:backgroundTint="@null" />
+
+    <LinearLayout
+        android:id="@+id/button_container2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button_container"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="56dp"
+            android:background="@drawable/button_bg3"
+            android:text="@string/fruit1"
+            android:textColor="@color/button_fg"
+            app:backgroundTint="@null" />
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="12dp"
+            android:background="@drawable/button_bg3"
+            android:text="@string/fruit2"
+            android:textColor="@color/button_fg"
+            app:backgroundTint="@null" />
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="12dp"
+            android:background="@drawable/button_bg3"
+            android:text="@string/fruit3"
+            android:textColor="@color/button_fg"
+            app:backgroundTint="@null" />
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="12dp"
+            android:background="@drawable/button_bg3"
+            android:text="@string/fruit4"
+            android:textColor="@color/button_fg"
+            app:backgroundTint="@null" />
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="12dp"
+            android:background="@drawable/button_bg3"
+            android:text="@string/fruit5"
+            android:textColor="@color/button_fg"
+            app:backgroundTint="@null" />
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="12dp"
+            android:background="@drawable/button_bg3"
+            android:text="@string/fruit6"
+            android:textColor="@color/button_fg"
+            app:backgroundTint="@null" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_resume2"
+        android:layout_width="180dp"
+        android:layout_height="56dp"
+        android:layout_below="@id/button_container2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/button_bg2"
+        android:text="@string/button_title_resume"
+        android:textColor="@color/button_fg"
+        app:backgroundTint="@null" />
 </RelativeLayout>
