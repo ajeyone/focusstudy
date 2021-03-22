@@ -19,4 +19,9 @@
     <string name="fruit5">苹果</string>
     <string name="fruit6">大鸭梨</string>
     <string name="button_title_resume">恢复默认状态</string>
+    <string name="author_name">拾识物者</string>
+    <string name="author_introduction">写起代码把头摇，人狠又话痨</string>
+    <string name="fake_phone">12312345678</string>
+    <string name="action_contact">Contact ~</string>
+    <string name="action_donate">Donate $</string>
 </resources>

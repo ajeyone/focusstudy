@@ -4,6 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:clipChildren="false"
+    android:clipToPadding="false"
     tools:context=".MainActivity">
 
     <TextView
@@ -93,78 +95,89 @@
         app:backgroundTint="@null" />
 
     <LinearLayout
-        android:id="@+id/button_container2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/button_container"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="120dp"
-        android:orientation="horizontal"
-        android:padding="10dp">
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:id="@+id/card"
+            android:layout_width="360dp"
+            android:layout_height="108dp"
+            android:background="@drawable/button_bg4"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:descendantFocusability="blocksDescendants"
+            android:focusable="true"
+            android:padding="1dp">
+
+            <ImageView
+                android:id="@+id/avatar"
+                android:layout_width="72dp"
+                android:layout_height="72dp"
+                android:layout_centerVertical="true"
+                android:background="@drawable/round_bg_in_card"
+                android:src="@drawable/robin" />
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/avatar"
+                android:layout_marginStart="8dp"
+                android:layout_toEndOf="@id/avatar"
+                android:text="@string/author_name"
+                android:textColor="@color/title_in_card"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/position"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/name"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="6dp"
+                android:layout_toEndOf="@id/avatar"
+                android:text="@string/author_introduction"
+                android:textColor="@color/subtitle_in_card"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/position"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="6dp"
+                android:layout_toEndOf="@id/avatar"
+                android:text="@string/fake_phone"
+                android:textColor="@color/subtitle_in_card"
+                android:textSize="14sp" />
+        </RelativeLayout>
 
         <Button
-            android:layout_width="120dp"
-            android:layout_height="56dp"
-            android:background="@drawable/button_bg3"
-            android:text="@string/fruit1"
+            android:id="@+id/button_donate"
+            android:layout_width="126dp"
+            android:layout_height="108dp"
+            android:layout_marginStart="1dp"
+            android:background="@drawable/button_bg4"
+            android:text="@string/action_contact"
             android:textColor="@color/button_fg"
             app:backgroundTint="@null" />
 
         <Button
-            android:layout_width="120dp"
-            android:layout_height="56dp"
-            android:layout_marginStart="12dp"
-            android:background="@drawable/button_bg3"
-            android:text="@string/fruit2"
-            android:textColor="@color/button_fg"
-            app:backgroundTint="@null" />
-
-        <Button
-            android:layout_width="120dp"
-            android:layout_height="56dp"
-            android:layout_marginStart="12dp"
-            android:background="@drawable/button_bg3"
-            android:text="@string/fruit3"
-            android:textColor="@color/button_fg"
-            app:backgroundTint="@null" />
-
-        <Button
-            android:layout_width="120dp"
-            android:layout_height="56dp"
-            android:layout_marginStart="12dp"
-            android:background="@drawable/button_bg3"
-            android:text="@string/fruit4"
-            android:textColor="@color/button_fg"
-            app:backgroundTint="@null" />
-
-        <Button
-            android:layout_width="120dp"
-            android:layout_height="56dp"
-            android:layout_marginStart="12dp"
-            android:background="@drawable/button_bg3"
-            android:text="@string/fruit5"
-            android:textColor="@color/button_fg"
-            app:backgroundTint="@null" />
-
-        <Button
-            android:layout_width="120dp"
-            android:layout_height="56dp"
-            android:layout_marginStart="12dp"
-            android:background="@drawable/button_bg3"
-            android:text="@string/fruit6"
+            android:id="@+id/button_contact"
+            android:layout_width="126dp"
+            android:layout_height="108dp"
+            android:layout_marginStart="1dp"
+            android:background="@drawable/button_bg4"
+            android:text="@string/action_donate"
             android:textColor="@color/button_fg"
             app:backgroundTint="@null" />
     </LinearLayout>
 
-    <Button
-        android:id="@+id/button_resume2"
-        android:layout_width="180dp"
-        android:layout_height="56dp"
-        android:layout_below="@id/button_container2"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="24dp"
-        android:background="@drawable/button_bg2"
-        android:text="@string/button_title_resume"
-        android:textColor="@color/button_fg"
-        app:backgroundTint="@null" />
 </RelativeLayout>
